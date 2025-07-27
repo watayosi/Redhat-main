@@ -22,6 +22,10 @@ Continue building your app on:
 
 **[https://v0.dev/chat/projects/nznnPHByMJw](https://v0.dev/chat/projects/nznnPHByMJw)**
 
+## Environment Variables
+
+Copy `.env.example` to `.env` and set `NEXT_PUBLIC_API_URL` to the URL of your Express server.
+
 ## How It Works
 
 1. Create and modify your project using [v0.dev](https://v0.dev)
