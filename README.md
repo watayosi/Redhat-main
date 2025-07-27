@@ -6,3 +6,5 @@ This repository contains two subprojects:
 - **server** — Node.js Express API that connects to Supabase and is intended for deployment on Render.
 
 See `docs/architecture.md` for implementation details.
+
+For Japanese readers, a translation is available in `docs/architecture.ja.md`.
