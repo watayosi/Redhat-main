@@ -7,7 +7,7 @@ This monorepo contains two subprojects:
 
 ## Frontend
 
-The `frontend` folder holds the original v0.dev Next.js project. Its `package.json` provides scripts for development and production. The app expects the API base URL in the environment variable `NEXT_PUBLIC_API_URL`.
+The `frontend` folder holds the original v0.dev Next.js project. Its `package.json` provides scripts for development and production. The app expects the API base URL in the environment variable `NEXT_PUBLIC_API_URL` (see `frontend/.env.example`).
 
 ```
 cd frontend
