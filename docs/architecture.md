@@ -48,8 +48,10 @@ PORT                  Port for the Express server (default 3001)
 
 ## Deployment
 
-1. Deploy the **frontend** folder to Vercel.
-2. Deploy the **server** folder to Render and set the above environment variables.
-3. Configure `NEXT_PUBLIC_API_URL` in Vercel to point to the Render deployment URL.
+See [deployment.md](deployment.md) for a step-by-step guide. In short:
+
+1. Deploy the **frontend** directory to Vercel.
+2. Deploy the **server** directory to Render with the environment variables listed above.
+3. Set `NEXT_PUBLIC_API_URL` in Vercel to the public URL of your Render service.
 
 This separation allows independent deployment and scaling of the UI and API layers while relying on Supabase for data storage and authentication.
